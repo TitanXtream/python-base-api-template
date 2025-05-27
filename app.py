@@ -1,4 +1,5 @@
 from fastapi import FastAPI,HTTPException,Request,Depends
+from fastapi.middleware.cors import CORSMiddleware
 import socketio
 from contextlib import asynccontextmanager
 import uvicorn
